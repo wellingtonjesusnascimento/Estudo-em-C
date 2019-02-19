@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+//Símbolos matemáticos: + (soma), - (subtração), * (multiplicação), / (divisão), % (resto da divisão).
+
+float resultado = 10+3;
+float resultado02 = 10-3;
+float resultado03 = 10*3;
+//Como a linguagem C só divide número inteiro por número inteiro, e número decimal por decimal, é necessário especificar-se os respectivos números abaixo.
+//O operador '%' que representa o resto da divisão só trabalha com números inteiros, não trabalhando com números decimais e gerando 01 erro.
+float resultado04 = 10.0/3.0;
+float resultado05 = 10/2;
+float resultado06 = 20/2;
+float resultado07 = 20.0/3.0;
+float resultado08 = 10%3;
+float resultado09 = 10%4;
+float resultado10 = 10%5;
+
+
+printf("%.0f, %.f, %.0f, %f, %.0f, %.0f, %f, %.0f, %.0f e %.0f.", resultado, resultado02, resultado03, resultado04, resultado05, resultado06, resultado07, resultado08, resultado09, resultado10);
+
+return 0;
+}
