@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*Comentários:
+Linha 01;
+Linha 02;
+Linha 03;
+Linha 04.*/
+int main()
+{
+    //Printf é um código de impressão na linguagem C
+    printf("Hello world!\n");
+    return 0;
+}
