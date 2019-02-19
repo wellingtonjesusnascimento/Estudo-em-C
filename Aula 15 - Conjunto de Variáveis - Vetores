@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Vetor são células.
+    //int 100 variáveis entre conclhetes, ou qualquer outro número entre colchetes.
+    //Todo vetor começa sempre da posição 0.
+    //Se a última posição é a 3, então são 04 posições, pois a mesma inicia-se em 0.
+    char nome[10] = {'w', 'e', 'l', 'l', 'i', 'n', 'g', 't', 'o', 'n'};
+
+    printf("%c", nome[1]);
+
+    return 0;
+}
