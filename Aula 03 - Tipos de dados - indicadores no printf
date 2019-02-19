@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Hello world é uma string (dado tipo texto)
+    // %s string texto
+    // %c caracteres (porém somente 01 caractere) char
+    // %d inteiro int
+    // %f Fracionado Float
+    // Năo é necessário informar a string texto para imprimir um texto.
+    printf("%s", "Hello world!\n");
+    printf("%c\n", 'A');
+    printf("%d\n", 27);
+    printf("%f\n", 29.5);
+    printf("%.0f\n", 29.5);
+    printf("%.1f\n", 29.5);
+    printf("%.2f\n", 29.5);
+    printf("Peso: %.1f\n Sexo: %c\n Idade: %d\n Nome: %s\n", 70.0, 'M', 20, "Wellington");
+    printf("\nPeso: %.1f \nSexo: %c \nIdade: %d \nNome: %s", 70.0, 'M', 20, "Wellington");
+    printf("\nPeso: %.1f \nSexo: %c \nIdade: %d \nNome: %s", 74.0, 'F', 22, "Roberta");
+    return 0;
+}
