@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//Variável int, Não pode começar com Números, Não pode começar com caracteres especiais, Não pode conter palavras reservadas como 'return' e Não pode ter espaço.
+//= é um sinal de atribuição, como int é uma variável de número inteiro, então devo colocar número inteiro.
+//char é um tipo de caractere.
+//Vetor de caracteres, char meuNome[50] armazena 50 letras.
+//String texto sempre fica entre aspas duplas.
+//char meuNome[] = "". Caso não declare a variável deve se informar quantos caracteres deseja entre colchetes. Exemplo: char Nome[] = "".
+int minhaIdade = 20;
+float meuPeso = 74.0;
+char sexo = 'M';
+char meuNome[50] = "";
+char Nome[] = "Wellington Jesus do Nascimento";
+char Name[50] = "";
+
+printf("%d \n%.1f \n%c \n%s \n%s \n%s", minhaIdade, meuPeso, sexo, meuNome, Nome, Name);
+
+return 0;
+}
