@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Para acessar a matriz deve-se informar a célula e a coluna que se deseja acessar.
+    //Cada chave dentro da chave na matriz representa uma linha.
+    //Se não declado os valores como na tabela descrita abaixo, a matriz declarará valores aleatórios.
+    int matriz[4][4] = {{1,4,1,0},
+                        {1,8,1,0},
+                        {4,7,0,5},
+                        {5,5,4,7}};
+
+//Quando se trabalha com matriz, a utilização do for requer que declare-se o mesmo 2 vezes, pois a linha(s) e coluna(s) na matriz.
+    int linha, coluna;
+    //O comando de comparação for significa que a matriz terá que acessar as 4 colunas e as 4 linhas.
+    for (linha=0; linha<4; linha++)
+    {
+    for (coluna=0; coluna<4; coluna++)
+    printf("%d  ", matriz[linha][coluna]);
+    printf("\n");
+    }
+    return 0;
+}
