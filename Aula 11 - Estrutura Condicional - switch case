@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Colocar o nome de uma variável para rodar junto com o switch.
+    int dia = 8;
+    //Dentro do switch coloca se o nome da variável entre parentêses.
+    switch(dia)
+    {
+        //case é o valor a ser testado
+        //case 1, 1 é o número do case.
+        //É sempre necessário colocar o break no final de cada case, break é um comando para finalizar a expressão.
+        //O break utilizado no case para o comando, a expressão, e pula todos os seguintes cases descritos no programa.
+        case 1:printf("Domingo");break;
+        case 2:printf("Segunda-Feira");break;
+        case 3:printf("Tuesday");break;
+        case 4:printf("Quarta-Feira");break;
+        case 5:printf("Quinta-Feira");break;
+        case 6:printf("Sexta-Feira");break;
+        case 7:printf("Saturday");break;
+        //O default não roda sem o break.
+        default:printf("Argument Invalid!");break;
+    }
+
+    return 0;
+}
