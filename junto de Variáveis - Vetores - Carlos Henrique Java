@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Vetor são células.
+    //int 100 variáveis entre conclhetes, ou qualquer outro número entre colchetes.
+    //Todo vetor começa sempre da posição 0.
+    //Se a última posição é a 3, então são 04 posições, pois a mesma inicia-se em 0.
+    //Entre colchetes da variável 'int' fica o número de caracteres.
+    int dados[12] = {0> && >=12};
+
+    printf("%d", dado01[0> && >=12]);
+
+    return 0;
+}
