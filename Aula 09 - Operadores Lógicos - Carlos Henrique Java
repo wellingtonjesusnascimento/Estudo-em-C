@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//Na linguagem binária o computador só compreende 0 d 1.
+//0 = falso
+// 1 = verdadeiro
+// == (igualdade), != (diferença), > (maior), >= (maior ou igual), <(menor), <=(menor ou igual).
+// Operadores lógicos: && (And - a resposta somente retornará verdadeira caso as duas expressões sejam verdadeiras), || (Or - Ou - é necessário que apenas uma expressão esteja verdadeira para retornar '1' verdadeiro) e ! (Not - Não - Esse nega uma expressão mesmo se ela for verdadeira).
+int resposta = 10==10;
+int resposta02 = 10==7;
+int resposta03 = 10!=7;
+int resposta04 = 10>7;
+int resposta05 = 10<7;
+int resposta06 = 10>=7;
+int resposta07 = 10<=7;
+int resposta08 = 10==10 && 5<3;
+int resposta09 = 10==7 && 5<3;
+int resposta10 = 10==7 && 5>3;
+int resposta11 = 10==7 || 5>3;
+int resposta12 = 7==7 || 5>10;
+int resposta13 = 7==7 || 5>1;
+int resposta14 = !7==7;
+
+printf("10==10?\nR: %d\n\n10==7?\nR: %d\n\n10!=7?\nR: %d\n\n10>7?\nR: %d\n\n10<7?\nR: %d\n\n10>=7?\nR: %d\n\n10<=7?\nR: %d\n\n10==10 e 5<3?\nR: %d\n\n10==7 e 5<3?\nR: %d\n\n10==7 e 5>3?\nR: %d\n\n10==7 ou 5>3?\nR: %d\n\n7==7 ou 5>10?\nR: %d\n\n7==7 ou 5>1?\nR: %d\n\n7==7 (NOT)?\nR: %d\n", resposta, resposta02, resposta03, resposta04, resposta05, resposta06, resposta07, resposta08, resposta09, resposta10, resposta11, resposta12, resposta13, resposta14);
+
+return 0;
+}
