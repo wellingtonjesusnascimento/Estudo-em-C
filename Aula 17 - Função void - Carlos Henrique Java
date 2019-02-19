@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+//Abaixo se localiza a função main.
+//void = vazio (traduzido).
+int main()
+{
+    //Uma função tem o objetivo de executar algo.
+    printf("------------------\n");
+    printf("Minas Gerais");
+    printf("\n------------------\n");
+    printf("São Paulo");
+    printf("\n------------------\n");
+    printf("Rio de Janeiro");
+    printf("\n------------------\n");
+    printf("Rio Grande do Sul");
+    printf("\n------------------\n");
+
+    return 0;
+}
