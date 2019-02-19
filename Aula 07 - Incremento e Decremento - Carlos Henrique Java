@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int contador = 0;
+
+  //O incremento é = contador + 1, se o incremento for contador++ o resultado será o mesmo de uma soma com + 1.
+  contador--;
+  contador++;
+  ++contador;
+  --contador;
+
+  contador = contador + 1;
+  //Quando utilizado o incremento do contador++, o valor sempre virá na linha de baixo, porém se utilizado "++contador" dentro do printf dará 'certo'.
+  printf("%d, %d, %d e %d.", contador, contador, contador, contador);
+
+  return 0;
+}
