@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+//void = vazio (traduzido).
+//Protótipo da função abaixo é finalizado com ';'.
+//Abaixo se localiza a função void.
+void mostrarlinha();
+
+void mostrarlinha()
+{
+  printf("------------------\n");
+}
+//Abaixo se localiza a função main.
+int main()
+{
+    //Uma função tem o objetivo de executar algo.
+    mostrarlinha();
+    printf("Minas Gerais\n");
+    mostrarlinha();
+    printf("São Paulo\n");
+    mostrarlinha();
+    printf("Rio de Janeiro\n");
+    mostrarlinha();
+    printf("Rio Grande do Sul\n");
+    mostrarlinha();
+
+    return 0;
+}
