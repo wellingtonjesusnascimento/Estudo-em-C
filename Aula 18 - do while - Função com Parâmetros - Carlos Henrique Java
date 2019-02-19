@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//void = vazio (traduzido);
+//Abaixo o protótipo da função, a diferença da função em si e do protótipo a função é que o protótipo ao invés de vir o corpo em seguida, o mesmo encerra antes apenas com ';'.
+void converterDolar(float dolar);
+//Abaixo uma função.
+void converterDolar(float dolar)
+{
+    //A taxa do dólar descrita abaixo corresponde ao dia 01/11/2018 - Quinta-Feira, equivalente a R$ 3,6968, sendo a de venda R$ 3,6973, porém arredondei a taxa de compra apenas para R$ 3,69.
+    //Para separar os números decimais, sempre deve-se utilizar a '.' (americano) ao invés de vírgula.
+    float real = dolar*3.69;
+    printf("%.2f dollars = %.2f reais\n\n", dolar, real);
+}
+
+int main()
+{
+    converterDolar(250);
+
+    return 0;
+}
