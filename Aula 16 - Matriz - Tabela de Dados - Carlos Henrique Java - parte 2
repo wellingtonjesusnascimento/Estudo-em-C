@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Para acessar a matriz deve-se informar a célula e a coluna que se deseja acessar.
+    //Cada chave dentro da chave na matriz representa uma linha.
+    int matriz[4][4] = {{1,1,1,1},
+                        {1,1,1,1},
+                        {1,1,1,5},
+                        {1,1,1,1}};
+//Com essa declaração, comando e expressão, o valor original descrito na tabela acima é sobreposto de acordo com a coordenada e valor descrito na expressão, declaração e comando abaixo.
+matriz[4][4] = 10;
+
+    printf("%d", matriz[4][4]);
+
+    return 0;
+}
