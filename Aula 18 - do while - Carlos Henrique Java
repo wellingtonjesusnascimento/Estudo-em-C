@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //do = faça (traduzido).
+    //Com o do, o mesmo executará o código entre chaves necessariamente pelo menos 01 vez.
+    float nota;
+    do
+    {
+        printf("Insira uma nota de 0 a 10:\n");
+        scanf("%f",&nota);
+    }
+    //Com a condição nota>10 do while, caso o usuário insira -1 ou qualquer outro número menor que 10, o valor será interpretado como verdadeiro.
+    //Para corrigir o erro das notas negativas da condição while, é recomendade utilizar o operador || (OR - OU).
+    while(nota>10 || nota<0);
+    {
+        //Para inserir a nota de números decimais deve-se utilizar o '.' ao invés da vírgula para separar as casas decimais.
+        printf("Nota inserida:\n%.1f", nota);
+        nota++;
+    }
+
+    return 0;
+}
