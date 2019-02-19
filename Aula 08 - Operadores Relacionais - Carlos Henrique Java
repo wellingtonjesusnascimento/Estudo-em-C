@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//Na linguagem binária o computador só compreende 0 d 1.
+//0 = falso
+// 1 = verdadeiro
+// == (igualdade), != (diferença), > (maior), >= (maior ou igual), <(menor), <=(menor ou igual).
+int resposta = 10==10;
+int resposta02 = 10==7;
+int resposta03 = 10!=7;
+int resposta04 = 10>7;
+int resposta05 = 10<7;
+int resposta06 = 10>=7;
+int resposta07 = 10<=7;
+
+printf("10==10?\nR: %d\n\n10==7?\nR: %d\n\n10!=7?\nR: %d\n\n10>7?\nR: %d\n\n10<7?\nR: %d\n\n10>=7?\nR: %d\n\n10<=7?\nR: %d\n", resposta, resposta02, resposta03, resposta04, resposta05, resposta06, resposta07);
+
+return 0;
+}
