@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Para acessar a matriz deve-se informar a célula e a coluna que se deseja acessar.
+    //Cada chave dentro da chave na matriz representa uma linha.
+    int matriz[4][4] = {{1,1,1,1},
+                        {1,1,1,1},
+                        {1,1,1,5},
+                        {1,1,1,1}};
+
+    printf("%d", matriz[0][3]);
+
+    return 0;
+}
