@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int dinheiroPai = 100;
+    int meuDinheiro = 100;
+    //Estudo da estrutura condicional if e else.
+    //Entre parênteses é a condição falsa ou verdadeira.
+    //É possível usar operadores lógicos junto com if.
+    //Se as duas condições forem verdadeira no if, ele executará o código descrito abaixo (&& - E - Operador Lógico).
+    //|| = Operador OU - OR - Apenas uma condição sendo verdadeira, toda a expressão retornará verdadeira.
+    if(meuDinheiro>=1000 || dinheiroPai>=1000)
+    {
+        printf("Pode tirar carteira de motorista!");
+    }
+     else
+     {
+        printf("Not carteira de motorista!");
+     }
+    return 0;
+}
