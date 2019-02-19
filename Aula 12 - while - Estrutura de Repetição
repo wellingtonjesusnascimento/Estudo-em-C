@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int contador = 0;
+    //O while é uma extrutura de repetição.
+    //O contador while repete enquanto a condição permanecer verdadeira, caso retorne falso para de repetir. No caso irá repetir os números De 0 a 99, pois o contador deve ser menor que 100 como especificado na condição, e com o contador++ o comando while para de repetir o contador em 99, iniciando em 0.
+    while(contador<100 || 10==7)
+    {
+        //02 espaços depois da variável int para o comando executar de maneira organizada/ordenada.
+        //Podemos colocar mais de uma condição, por exemplo, com o operador && (E - Comercial), resultando em verdadeiro caso as duas expressões sejam possíveis e verdadeiras.
+        //O operador || (OR - OU) necessita que apenas uma condição seja verdadeira para executar o comando solicitado.
+        printf("%d  ", contador);
+        contador++;
+    }
+
+    return 0;
+}
