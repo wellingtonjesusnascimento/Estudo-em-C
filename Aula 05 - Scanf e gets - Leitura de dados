@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char nome[10];
+    char sexo;
+    int n1;
+    int n2;
+    int n3, n4;
+    float massa;
+    int idade;
+
+    printf("Digite o seu primeiro nome:\n");
+    //O comando 'gets' é o mais indicado para inserir strings.
+    //O comando scanf não reconhece espaço, já o gets reconhece.
+    //Obs: por algum motivo ao ter deixado dois comandos 'char' juntos utilizando o sub-comando 'scanf' não executou o programa, porém ao trocar o sub-comando 'scanf' para 'gets' do primeiro comando 'char' o comando foi executado.
+    //Obs 02: Sempre colocar os comandos 'char' em primeiro na lista acima e na descrições de comandos abaixo para a execução ocorrer com sucesso.
+    //Obs 03: O comando 'get' sempre deve ficar em cima, e o comando 'scanf' deve ficar em baixo, de preferência ambos antes da variável 'int'.
+    gets(nome);
+
+    printf("Digite seu sexo, 'M' para masculino ou 'F' para feminino:\n");
+    scanf("%c", &sexo);
+
+    printf("Number %d:\n", 1);
+    scanf("%d", &n1);
+
+    printf("Number %d:\n", 2);
+    scanf("%d", &n2);
+
+    printf("Number %d and enter, depois digite 'the number' %d:\n", 3, 4);
+    scanf("%d %d", &n3, &n4);
+
+    printf("Digite o valor da sua massa corporal:\n");
+    //& = E comercial.
+    scanf("%f", &massa);
+
+    printf("Digite a sua idade:\n");
+    scanf("%d", &idade);
+
+    printf("Number %d:\n %d\n", 1, n1);
+    printf("Number %d:\n %d\n", 2, n2);
+    printf("Number %d e %d:\n %d e %d\n", 3, 4, n3, n4);
+    printf("Seu nome: %s\n", nome);
+    printf("Seu sexo: %c\n", sexo);
+    printf("Sua massa corporal: %.1f\n", massa);
+    printf("Sua idade: %d", idade);
+    return 0;
+}
